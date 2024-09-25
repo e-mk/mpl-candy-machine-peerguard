@@ -15,7 +15,7 @@ To get started with PeerGuard, clone the repository and follow the installation 
 This project contains the following programs:
 
 - [Candy Machine Core](./programs/candy-machine-core/README.md) `CndyV3LdqHUfDLmE5naZjVN8rBZz4tqhdefbAnjHG3JR`
-- [Candy Guard Program with Custom Peer Guard Candy Guard](./programs/candy-guard/README.md) `Guard1JwRhJkVH6XZhzoYxeBVQe872VH6QggF4BWmS9g`
+- [Candy Guard Program with Custom Peer Guard Candy Guard](./programs/candy-guard/README.md) `3tvCcjNW6iQHhb5muybaB1i14FcR57t9CacG7pMBMG53`
 
 You will need a Rust version compatible with BPF to compile the program, currently we recommend using Rust 1.68.0.
 
