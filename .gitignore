@@ -2,6 +2,7 @@
 .DS_Store
 **/.DS_Store
 **/target
+**/local-net-programs
 **/*.rs.bk
 node_modules
 test-ledger
@@ -11,3 +12,4 @@ dist
 .vscode
 .yarn
 programs/.bin
+peer-guard-frontend
