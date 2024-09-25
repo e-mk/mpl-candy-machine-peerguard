@@ -31,13 +31,13 @@ solana program dump -u m metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s metadata.so
 &&
 solana program dump -u CndyV3LdqHUfDLmE5naZjVN8rBZz4tqhdefbAnjHG3JR candy_machine.so
 ```
-2.. Run the Solana Test Validator
+2. Run the Solana Test Validator
 Start the Solana test validator with the NFT metadata and candy machine programs loaded.
 ```bash
 solana-test-validator -r --bpf-program metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s metadata.so --bpf-program CndyV3LdqHUfDLmE5naZjVN8rBZz4tqhdefbAnjHG3JR candy_machine.so
 ```
 
-Run Tests Using Anchor
+3. Run Tests Using Anchor
 This command will run your tests while skipping the validator step.
 
 ```bash
