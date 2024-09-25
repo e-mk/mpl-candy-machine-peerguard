@@ -1,5 +1,5 @@
 PeerGuard
-PeerGuard is a custom candy guard for the Metaplex candy machine, designed to mint NFTs by confirming payment through a Stripe transaction ID. This innovative approach streamlines the minting process by integrating traditional payment systems with blockchain technology.
+PeerGuard is a custom candy guard for the Metaplex Candy Machine, designed to mint NFTs by confirming payment through a Stripe transaction ID. This innovative approach streamlines the minting process by integrating traditional payment systems with blockchain technology.
 
 Table of Contents
 Prerequisites
