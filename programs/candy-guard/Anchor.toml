@@ -2,11 +2,11 @@
 seeds = false
 
 [registry]
-url = "https://devnet.helius-rpc.com/?api-key=53adb904-7c5a-48ba-9807-c85a06a9b1f8"
+url = "localnet"
 
 [provider]
-cluster = "https://devnet.helius-rpc.com/?api-key=53adb904-7c5a-48ba-9807-c85a06a9b1f8"
-wallet = "/mnt/c/Users/User/Desktop/wba/wba_week1/airdrop/wba-wallet.json"
+cluster = "localnet"
+wallet = "YOUR_WALLET_PATH"
 [workspace]
 members = ["program"]
 
