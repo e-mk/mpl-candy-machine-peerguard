@@ -1,17 +1,21 @@
-# Metaplex Candy Machine
+# PeerGuard
 
-The Metaplex Protocol Candy Machine is the leading minting and distribution program for fair NFT collection launches on Solana. It allows creators to bring their digital assets on-chain in a secure and customisable way.
+PeerGuard is a custom candy guard for the Metaplex Candy Machine that enables minting NFTs upon receiving transaction ID confirmation from Stripe. By leveraging ED25519 instructions, PeerGuard facilitates the integration of fiat payments for NFT minting, allowing users to purchase NFTs seamlessly with traditional payment methods.
 
-You can [**read more about Candy Machines in the official Metaplex documentation**](https://developers.metaplex.com/candy-machine).
+# Features
+Fiat Payment Integration: Mints NFTs after confirming transaction IDs from Stripe.
+ED25519 Instruction: Ensures secure cryptographic signing for transaction validation.
+Easy Integration: Designed to work effortlessly with the Metaplex Candy Machine.
 
-![Metaplex Candy Machine - Launch your NFT collection. Customize your minting workflow, Use multiple minting groups, Protect your launch against bots, Supports Programmable NFTs, And much more!](https://user-images.githubusercontent.com/3642397/230599235-eb2223e7-0869-4f5e-aa07-a89c1645c0d1.jpg)
+# Getting Started
+To get started with PeerGuard, clone the repository and follow the installation instructions in the documentation.
 
 ## Programs
 
 This project contains the following programs:
 
 - [Candy Machine Core](./programs/candy-machine-core/README.md) `CndyV3LdqHUfDLmE5naZjVN8rBZz4tqhdefbAnjHG3JR`
-- [Candy Guard](./programs/candy-guard/README.md) `Guard1JwRhJkVH6XZhzoYxeBVQe872VH6QggF4BWmS9g`
+- [Candy Guard Program with Custom Peer Guard Candy Guard](./programs/candy-guard/README.md) `Guard1JwRhJkVH6XZhzoYxeBVQe872VH6QggF4BWmS9g`
 
 You will need a Rust version compatible with BPF to compile the program, currently we recommend using Rust 1.68.0.
 
