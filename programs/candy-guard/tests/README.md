@@ -21,6 +21,7 @@ Before you begin, ensure you have the following installed:
 
 ## Usage
 To start using PeerGuard, you need to set up the Solana test validator and deploy the necessary programs. Refer to the Commands section for specific instructions.
+You also need to replace your @metaplex-foundation/mpl-candy-machine node module with a [custom generated mpl-candy-machine module that includes PeerGuard](src/).
 
 # Commands
 1. Copy NFT Metadata Program and Candy Machine Program for Solana Test Validator
